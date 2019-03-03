@@ -30,9 +30,7 @@ $(document).ready(function () {
 
 
 jQuery(document).ready(function(){
-	$('nav.navbar a,div.effect div.arrow a').on('click', function (e) {
-		e.preventDefault();
-
+	$('nav.navbar a,div.effect div.arrow a').on('click', function () {
 		$('html, body').animate({
 			scrollTop: $($(this).attr('href')).offset().top
 		}, 750, 'swing');
