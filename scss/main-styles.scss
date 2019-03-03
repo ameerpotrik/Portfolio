@@ -1,0 +1,292 @@
+/* // Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Comfortaa|Fredericka+the+Great|Arizonia);
+
+/* Font-Variables */
+$comfortaa: 'Comfortaa';
+$fredericka: 'Fredericka the Great';
+$arizonia: 'Arizonia';
+
+@import "colors";
+
+/* Styles */
+
+$spacing-letters: 0.0625rem;
+$weight-of-font: normal;
+
+$size-of-font: 1.9rem;
+$header-font: 2.8rem;
+
+/* NAVBAR SECTION*/
+.bg-red {background-color:$blue-color-bg;}
+.navbar-brand {
+		color: $black-color-font;
+		font-weight: $weight-of-font;
+		font-size: $size-of-font;
+		letter-spacing: $spacing-letters;
+		font-family: $fredericka
+	}
+	
+.nav		
+	a {font-family: $fredericka;
+	}
+
+.nav-link {color: $black-color-font;
+		font-weight: 400;
+		font-size: $size-of-font;
+		letter-spacing: $spacing-letters;
+	}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: 0;
+}
+
+.navbar-toggler span {
+   display: block;
+   background-color: $black-color-bg;
+   height: 4px;
+   width: 30px;
+   margin-top: 4px;
+   margin-bottom: 4px;
+   -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
+   -o-transform: rotate(0deg);
+   transform: rotate(0deg);
+   position: relative;
+   left: 0;
+   opacity: 1;
+}
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+   -webkit-transition: transform .40s ease-in-out;
+   -moz-transition: transform .40s ease-in-out;
+   -o-transition: transform .40s ease-in-out;
+   transition: transform .40s ease-in-out;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    opacity: 0.9;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+    height: 12px;
+    visibility: hidden;
+    background-color: transparent;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    opacity: 0.9;
+}
+
+
+	/* MASTERHEAD SECTION */
+
+header
+	h2{font-family: $comfortaa;
+	}
+
+header {
+  font-family: $fredericka;
+  font-weight: normal;
+  font-size: 1.3rem;
+  text-rendering: optimizeLegibility;
+  min-height: 100vh;
+  line-height: 1.5;
+  background-color: $white-color-font;
+}
+
+.masthead {height: 100vh;
+padding: 0;
+width: 100%;
+background: linear-gradient($background-gradient-top,$background-gradient-middle);
+color: $white-color-font;
+}
+
+.effect h1 {font-size: 100px;}
+.effect h1 {
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 10vw;
+  font-weight: 700;
+  text-decoration: none;
+  color: $white-color-font;
+  display: inline-block;
+  background-size: 120% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(45deg, 
+                    #7794ff, 
+                    #44107A,
+                    #FF1361,
+                    #FFF800);
+  animation: .5s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+
+
+.txt-rotate {font-family: $arizonia;font-size: 30px;color: $bluish-green-font;
+	}
+
+
+.arrow 
+	a {text-decoration: none;
+	color: $white-color-font;
+	font-size: 3rem;
+	}
+	
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* HELLO SECTION */
+
+.Hello-section {background: linear-gradient($background-gradient-middle, $background-gradient-bottom);
+padding-top: 8rem;
+}
+
+#hello 	{
+	article { 
+		max-width: 460px;
+		}
+
+		h3 {font-size: $header-font;
+		color:$white-color-font;
+		font-family: $comfortaa
+		}
+			p {font-size: 1.5rem;
+		margin: 0 0 10px;
+		color: $white-color-font;
+		font-size: 2rem;
+		}
+	}
+
+/* WHAT I DO SECTION */
+	
+#what-i-do {
+	description
+		h1{font-size: $header-font;
+		color:$blue-color-font;
+		font-family: $comfortaa;
+		padding: 7rem 0 7rem;
+		}	
+	hr{border-color: $blue-color-font;
+	border-width: 0.25rem;
+	width: 100%;
+	}
+	h3 {color: $blue-color-font;
+letter-spacing: 0.2rem;
+border: dashed;
+	}
+	p {letter-spacing: 0.1rem;
+	}	
+}			
+
+/* HELP SECTION */
+
+#help {
+	description
+		h2{font-size: $header-font;
+		color:$blue-color-font;
+		font-family: $comfortaa;
+		padding: 4rem 0 4rem;
+		}
+	h3{color: $blue-color-font;
+		letter-spacing: 0.1rem;
+		}
+	p {letter-spacing: 0.1rem;
+	}
+	a {background-color: $blue-color-bg;
+		transition: 1s;
+		color: $white-color-font;
+		&:hover {background-color:$black-color-bg;
+	color: $white-color-font;
+		}
+	}
+}
+	
+.fa-envelope{padding-left: 7px;
+padding-right: 7px;
+}
+
+
+/* SOCIAL BUTTON SECTION */
+
+#social {
+	social-buttons {
+		padding-top: 3rem;
+		padding-bottom:3rem;
+		font-size: 1.6rem;
+		}
+
+		a {text-align: center;
+		height: 3rem;
+		width: 3rem;
+		border-radius: 100%;
+		line-height: 3rem;
+		background: $blue-color-bg;
+		color: $white-color-font;
+		transition: 0.6s; 
+		&:hover {color: $black-color-font; 
+		background-color: $white-color-bg;
+		font-size: 2.6rem;
+		}
+	}
+}
+
+		
+.small-text {font-size: 0.9rem;
+letter-spacing: 0.0625rem;
+padding-top: 3rem; 
+padding-bottom: 3rem;
+}
+
+.footer {padding: 5rem 0;
+}
+
+.bg-blue {background-color: $blue-color-bg;
+}
