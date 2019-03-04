@@ -19,19 +19,18 @@
 	<body>
 		<nav id="page-top" cz-shortcut-listen="true">
 			<nav class="navbar fixed-top navbar-toggleable-sm bg-light">
-				<button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-					<span> </span>
-					<span> </span>
-					<span> </span>
-				</button>
-				<a class="navbar-brand mr-auto" href="#page-top">Home </a>
-				<div class="collapse navbar-collapse" id="collapsingNavbar">
-					<ul class="nav navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link js-scroll-trigger" target="_blank" href="newcontact.html">Lets be Friends</a>
-						</li>
-					</ul>
-				</div>
+			<button id="hamburger-menu" data-toggle="ham-navigation" class="hamburger-menu-button">
+				<span class="hamburger-menu-button-open mt-auto">Menu</span>
+			</button>
+			<nav id="ham-navigation" class="ham-menu">
+			  <ul class="menu">
+				<li><a class="nav-link js-scroll-trigger" target="_blank" href="newcontact.html">Lets be Friends</a></li>
+			  </ul>
+			</nav>
+			<div>
+			<a class="navbar-brand ml-auto pt-3" href="#page-top">Home </a>
+			</div>
+			</div>
 			</nav>
 		</nav>
 		<header class = "masthead">
@@ -39,7 +38,7 @@
 				<div class="effect mx-auto text-center">
 					<h1>I'm Ameer
 						<h3>
-						<span class="txt-rotate" data-period="2000" data-rotate='[ "A Designer,", "A Front end Web Developer.","To know more about me either Click on the arrow or Scroll down." ]'>
+						<span class="txt-rotate" data-period="2000" data-rotate='[ "A Designer,", "A Front end Web Developer.","To know more about me either click on the arrow or scroll down." ]'>
 						</span>
 						</h3>
 					</h1>
@@ -63,7 +62,7 @@
 				</div>
 			</div>
 		</section>
-		<div class = "breaker text-center justify-content-center">
+		<div class = "breaker text-center justify-content-center touch">
 			<section id = "what-i-do">
 				<div class = "container col-md-6">
 					<description>
@@ -80,7 +79,7 @@
 			</section>
 		</div>
 		<div class = "breaker text-center justify-content-center">
-			<section id = "help">
+			<section id = "help" class = "">
 				<div class = "container col-md-6">
 					<description>
 						<h2>I can help!</h2>
