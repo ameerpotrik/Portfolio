@@ -1,8 +1,37 @@
+// Hamburger menu//
+
+var button = document.getElementById('hamburger-menu'),
+    span = button.getElementsByTagName('span')[0];
+
+button.onclick =  function() {
+  span.classList.toggle('hamburger-menu-button-close');
+};
+
+$('#hamburger-menu').on('click', toggleOnClass);
+
+function toggleOnClass(event) {
+  var toggleElementId = '#' + $(this).data('toggle'),
+  element = $(toggleElementId);
+
+  element.toggleClass('on');
+
+}
+
+// close hamburger menu after click a
+$( '.menu li a' ).on("click", function(){
+  $('#hamburger-menu').click();
+});
+
+
+// Document ready//
+
 $(document).ready(function(){
 $(this).scrollTop(0);
 });
- 
 
+// Navbar Hide function//
+
+ 
 $(document).ready(function () {
 
     // hide .navbar first
@@ -21,13 +50,15 @@ $(document).ready(function () {
     });
 });
 
+	//Shakey effect//	
+
 $(document).ready(function () {
     $(".effect h1").hide( "explode" ); {
     $(".effect h1").show( "explode" );
 }
 });
 
-
+	// Scroll Top function//
 
 jQuery(document).ready(function(){
 	$('nav.navbar a,div.effect div.arrow a').on('click', function () {
@@ -37,7 +68,7 @@ jQuery(document).ready(function(){
 	});
 });
 
-
+	//Typing effect//
 
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
