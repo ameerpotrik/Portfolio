@@ -328,7 +328,7 @@ padding-top: 8rem;
 		h1{font-size: $header-font;
 		color:$blue-color-font;
 		font-family: $comfortaa;
-		padding: 7rem 0 7rem;
+		padding: 7rem 0 3rem;
 		}	
 	hr{border-color: $blue-color-font;
 	border-width: 0.25rem;
@@ -340,7 +340,9 @@ border: dashed;
 	}
 	p {letter-spacing: 0.1rem;font-size: 1.5rem;
 	}	
-}			
+}		
+
+.text-division-sizing {padding-bottom: 7rem;}
 
 /* HELP SECTION */
 
@@ -398,11 +400,11 @@ padding-right: 7px;
 		
 .small-text {font-size: 0.9rem;
 letter-spacing: 0.0625rem;
-padding-top: 3rem; 
-padding-bottom: 3rem;
+padding-top: 1rem; 
+padding-bottom: 1rem;
 }
 
-.footer {padding: 5rem 0;
+.footer {padding: 1rem 0;
 }
 
 .bg-blue {background-color: $blue-color-bg;
