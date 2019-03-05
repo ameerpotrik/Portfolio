@@ -1,10 +1,10 @@
 /* // Google Fonts */
-@import url(https://fonts.googleapis.com/css?family=Comfortaa|Fredericka+the+Great|Arizonia|Cinzel+Decorative|Meie+Script);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa|Fredericka+the+Great|Arizonia|Cinzel+Decorative|Lakki+Reddy);
 
 /* Font-Variables */
 $comfortaa: 'Comfortaa';
 $fredericka: 'Fredericka the Great';
-$arizonia: 'Meie Script';
+$arizonia: 'Lakki Reddy';
 
 @import "colors";
 
@@ -13,7 +13,7 @@ $arizonia: 'Meie Script';
 $spacing-letters: 0.0625rem;
 $weight-of-font: normal;
 
-$size-of-font: 1.2rem;
+$size-of-font: 1.3em;
 $header-font: 2.8rem;
 
 
@@ -267,7 +267,7 @@ color: $white-color-font;
 
 
 
-.txt-rotate {font-family: $arizonia;font-size: 30px;color: black;
+.txt-rotate {font-family: $arizonia;font-size: 30px;color: #fFF;
 	}
 
 

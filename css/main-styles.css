@@ -1,5 +1,5 @@
 /* // Google Fonts */
-@import url(https://fonts.googleapis.com/css?family=Comfortaa|Fredericka+the+Great|Arizonia|Cinzel+Decorative|Meie+Script);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa|Fredericka+the+Great|Arizonia|Cinzel+Decorative|Lakki+Reddy);
 /* Font-Variables */
 /* Styles */
 .hamburger-menu-button {
@@ -113,7 +113,7 @@
 .navbar-brand {
   color: #3AAFA9;
   font-weight: normal;
-  font-size: 1.2rem;
+  font-size: 1.3em;
   letter-spacing: 0.0625rem;
   font-family: "Fredericka the Great"; }
 
@@ -124,7 +124,7 @@ a {
 .nav-link {
   color: #3AAFA9;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.3em;
   letter-spacing: 0.0625rem; }
 
 /* .navbar-toggler:focus, */
@@ -238,9 +238,9 @@ header {
   100% {
     transform: skewX(0deg); } }
 .txt-rotate {
-  font-family: "Meie Script";
+  font-family: "Lakki Reddy";
   font-size: 30px;
-  color: black; }
+  color: #fFF; }
 
 .arrow
 a {
