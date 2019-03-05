@@ -225,7 +225,7 @@ header {
   background-clip: text;
   text-fill-color: transparent;
   background-image: linear-gradient(45deg, #F172A1, #FFFF00, #FFFF00, #F172A1);
-  animation: .5s shake infinite alternate; }
+  animation: 4s shake infinite alternate; }
 
 @keyframes shake {
   0% {
@@ -319,7 +319,7 @@ h2 {
   font-size: 1.7rem; }
 #help p {
   letter-spacing: 0.1rem;
-  font-size: 1.5rem; }
+  font-size: 1.3rem; }
 #help a {
   background-color: #1e90ff;
   transition: 1s;
