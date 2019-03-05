@@ -288,7 +288,7 @@ h1 {
   font-size: 2.8rem;
   color: #1e90ff;
   font-family: "Comfortaa";
-  padding: 7rem 0 7rem; }
+  padding: 7rem 0 3rem; }
 #what-i-do hr {
   border-color: #1e90ff;
   border-width: 0.25rem;
@@ -300,6 +300,9 @@ h1 {
 #what-i-do p {
   letter-spacing: 0.1rem;
   font-size: 1.5rem; }
+
+.text-division-sizing {
+  padding-bottom: 7rem; }
 
 /* HELP SECTION */
 #help description
@@ -350,11 +353,11 @@ h2 {
 .small-text {
   font-size: 0.9rem;
   letter-spacing: 0.0625rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem; }
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
 
 .footer {
-  padding: 5rem 0; }
+  padding: 1rem 0; }
 
 .bg-blue {
   background-color: #1e90ff; }
