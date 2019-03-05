@@ -18,7 +18,7 @@ $header-font: 2rem;
 
 
 .hamburger-menu-button {
-	font-family: $fredericka;
+  font-family: $fredericka;
   width: 40px;
   height: 40px;
   padding: 6px;
@@ -256,7 +256,7 @@ color: $white-color-font;
                     #FFFF00,
                     #FFFF00,
                     #F172A1);
-  animation: .5s shake infinite alternate;
+  animation: 4s shake infinite alternate;
 }
 
 @keyframes shake {
@@ -358,7 +358,7 @@ border: dashed;
 	h3{color: $blue-color-font;
 		letter-spacing: 0.1rem;font-size: 1.7rem;
 		}
-	p {letter-spacing: 0.1rem;font-size: 1.5rem;
+	p {letter-spacing: 0.1rem;font-size: 1.3rem;
 	}
 	a {background-color: $blue-color-bg;
 		transition: 1s;
