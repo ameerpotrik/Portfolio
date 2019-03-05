@@ -4,7 +4,7 @@
 /* Font-Variables */
 $comfortaa: 'Comfortaa';
 $fredericka: 'Fredericka the Great';
-$arizonia: 'Lakki Reddy';
+$lakkireddy: 'Lakki Reddy';
 
 @import "colors";
 
@@ -14,7 +14,7 @@ $spacing-letters: 0.0625rem;
 $weight-of-font: normal;
 
 $size-of-font: 1.3em;
-$header-font: 2.8rem;
+$header-font: 2rem;
 
 
 .hamburger-menu-button {
@@ -215,7 +215,7 @@ header
 	}
 
 header {
-  font-family: $fredericka;
+  font-family: $lakkireddy;
   font-weight: normal;
   font-size: 1.3rem;
   text-rendering: optimizeLegibility;
@@ -251,9 +251,9 @@ color: $white-color-font;
   background-clip: text;
   text-fill-color: transparent;
   background-image: linear-gradient(45deg, 
-                    #A1C3D1, 
-                    #B39BC8,
-                    #E64398,
+                    #F172A1, 
+                    #FFFF00,
+                    #FFFF00,
                     #F172A1);
   animation: .5s shake infinite alternate;
 }
@@ -269,7 +269,7 @@ color: $white-color-font;
 
 
 
-.txt-rotate {font-family: $arizonia;font-size: 30px;color: #fFF;
+.txt-rotate {font-family:$lakkireddy;font-size: 30px;color: #fFF;
 	}
 
 
@@ -312,8 +312,8 @@ padding-top: 8rem;
 		color:$white-color-font;
 		font-family: $comfortaa
 		}
-			p {font-size: 1.5rem;
-		margin: 0 0 10px;
+			p {font-size: 1.4rem;
+		margin: 0 0 7px;
 		color: $white-color-font;
 		font-size: 2rem;
 		}
@@ -328,7 +328,7 @@ padding-top: 8rem;
 		h1{font-size: $header-font;
 		color:$blue-color-font;
 		font-family: $comfortaa;
-		padding: 7rem 0 3rem;
+		padding: 8rem 0 3rem;
 		}	
 	hr{border-color: $blue-color-font;
 	border-width: 0.25rem;
@@ -338,7 +338,7 @@ padding-top: 8rem;
 letter-spacing: 0.2rem;
 border: dashed;
 	}
-	p {letter-spacing: 0.1rem;font-size: 1.5rem;
+	p {letter-spacing: 0.1rem;font-size: 1.3rem;
 	}	
 }		
 
