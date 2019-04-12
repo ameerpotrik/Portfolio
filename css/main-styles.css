@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Comfortaa|Fredericka+the+Great|Arizonia|Cinzel+Decorative|Lakki+Reddy);
 /* Font-Variables */
 /* Styles */
+html,body {height: 100%;}
 .hamburger-menu-button {
   font-family: "Fredericka the Great";
   width: 40px;
